@@ -1,0 +1,30 @@
+{
+  "name": "pu2png",
+  "version": "0.0.1",
+  "description": "Convert PlantUML(.pu) to PNG",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "keywords": [
+    "PlantUML",
+    "png"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shohei-ot/pu2png.git"
+  },
+  "author": "s_ot",
+  "license": "ISC",
+  "dependencies": {
+    "plantuml-encoder": "^1.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

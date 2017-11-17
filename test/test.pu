@@ -1,0 +1,3 @@
+@startuml
+Hoge -> Piyo: Huga
+@enduml
