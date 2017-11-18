@@ -1,10 +1,10 @@
 {
   "name": "pu2png",
-  "version": "0.0.1",
-  "description": "Convert PlantUML(.pu) to PNG",
+  "version": "0.0.0",
+  "description": "Convert PlantUML(.pu) file to PNG file",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/index.js"
+    "test": "cd ./test && node ./index.js"
   },
   "keywords": [
     "PlantUML",
