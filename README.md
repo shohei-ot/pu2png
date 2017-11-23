@@ -1,9 +1,6 @@
 pu2png
 =========
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-
-
 Converet PlantUML text file to PNG, SVG, PlainText by NodeJS.  
 
 Accessing to PlantUML server by internally.  
@@ -13,6 +10,14 @@ Accessing to PlantUML server by internally.
 
 ```js
 const pu2png = require('pu2png')
+```
+
+## Test
+
+Converting `test/test.pu` to `test/test.png`.
+
+```
+npm test
 ```
 
 ## Simple usage
