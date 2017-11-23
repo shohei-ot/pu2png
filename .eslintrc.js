@@ -1,3 +1,8 @@
 module.exports = {
-    "extends": "standard"
+    "extends": "standard",
+    "env": {
+        "node": true,
+        "es6": true,
+        "commonjs": true
+    }
 };

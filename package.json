@@ -1,6 +1,6 @@
 {
   "name": "pu2png",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert PlantUML(.pu) file to PNG file",
   "main": "index.js",
   "scripts": {
