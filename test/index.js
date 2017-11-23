@@ -5,10 +5,10 @@ const path = require('path')
 const pu2png = require('../index.js')
 
 pu2png.convert('test.pu').then((toPath) => {
-  console.log('### Success!: ' + toPath)
+  console.log('SUCCESS: ' + toPath)
   return true
 }, (err) => {
-  console.log('### Failed!: ' + err.message)
+  console.log('FAILED: ' + err.message)
   try {
     const toPath = path.resolve(__dirname, 'test.png')
     fs.statSync(toPath)
@@ -17,6 +17,5 @@ pu2png.convert('test.pu').then((toPath) => {
   }
   throw err
 }).then((args) => {
-  console.log(args)
-  console.log(' --- DONE --- ')
+  console.log('finished')
 })
