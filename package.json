@@ -16,8 +16,6 @@
   },
   "author": "s_ot",
   "license": "ISC",
-  "dependencies": {
-    "plantuml-encoder": "^1.2.4"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
